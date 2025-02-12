@@ -55,5 +55,5 @@ jobs:
           draft: false
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}          
-          artifacts: "out/LPoS*.zip,out/KSU*.zip"
+          artifacts: "out/LPoS*.zip,out/KSU*.zip,out/clean*.zip"
           body: "Commit SHA: ${{ github.sha }}"
